@@ -1,0 +1,92 @@
+/*css page*/
+.header{
+background-color: gray;
+}
+.chat1{
+border-bottom: 1px solid gray;
+}
+#profile_top{
+background-color: green;
+min-height:20%;
+}
+.you{min-height: 95px;
+padding: 10px;}
+.darker {
+border-color: #ccc;
+background-color: #ddd;
+}
+.chatDetails{
+border:2px solid gray;
+}
+.chatDetails::after {
+content: "";
+clear: both;
+display: table;
+}
+.chatDetails img {
+float: left;
+max-width: 60px;
+width: 100%;
+margin-right: 20px;
+border-radius: 50%;
+}
+.chatDetails img.right {
+float: right;
+margin-left: 20px;
+margin-right:0;
+}
+.time-right {
+float: right;
+color: #aaa;
+}
+.time-left {
+float: left;
+color: #999;
+}
+figure {
+position: relative;
+display: inline-block;
+}
+figcaption {
+display: none;
+position: absolute;
+left: 0;
+bottom: 5px;
+right: 0;
+background-color: rgba(0,0,0,.15);
+}
+figure:hover img {
+opacity: .2;
+}
+figure:hover figcaption {
+display: block;
+}
+#profile_head{
+color: #1b700a;
+font-size: 22px;
+font-weight: 600px;
+}
+#profile_name{
+background-color: 
+}
+.profile_name{
+background-color: #dee3ea;
+}
+.left{
+border:20px solid gray;
+}
+.primary{
+color: #fff;
+}
+a, a.disabled:hover, a:disabled:hover {
+color: #383d3f;
+}
+input{
+width: 100%;min-height:50px;
+}
+#index{
+margin-right: 40px;
+}
+.left-side{
+	border:2px solid gray;
+}
